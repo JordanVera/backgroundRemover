@@ -1,0 +1,48 @@
+$grey3: #121212;
+$orange: #FF773D;
+$tomato: #F55536;
+$white: #fff;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+#jumbotron {
+  background-color: $grey3;
+  padding: 2rem;
+  margin: 2rem 0;
+
+  h1 {
+    margin-top: 0;
+  }
+
+  #formBox {
+    min-height: 200px;
+    max-height: 100%;
+    max-width: 100%;
+    min-width: auto;
+  }
+
+  #submitBtn {
+    margin-top: 1rem;
+  }
+}
+
+
+
+.returnedImg {
+  width: 400px;
+}
