@@ -15,6 +15,8 @@ const Jumbotron = () => {
     <Container id="jumbotron">
       <h1>Remove Image Background</h1>
       <h2>100% Automatically and Free</h2>
+      <p>Please use a web URL.</p>
+      <p>EX: https://facebook.com/1234.jpg</p>
       <Form
         backgroundRemovedImageUrl={backgroundRemovedImageUrl}
         setBackgroundRemovedImageUrl={setBackgroundRemovedImageUrl}
