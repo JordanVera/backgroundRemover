@@ -22,7 +22,7 @@ const Jumbotron = () => {
         <p>
           Please use a web URL. Right now the application does not support file
           uploads, we are working on this and hope to have this feature working
-          soon!
+          soon!!
         </p>
       </div>
       <p>
