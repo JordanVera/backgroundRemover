@@ -29,6 +29,14 @@ $white: #fff;
     margin-top: 0;
   }
 
+  a {
+    color: $orange;
+
+    &:hover {
+      color: greenyellow;
+    }
+  }
+
   #formBox {
     min-height: 200px;
     max-height: 100%;
